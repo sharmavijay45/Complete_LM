@@ -16,3 +16,12 @@ docker run -d -p 6333:6333 ^
 
 if created:
   docker start happy_pascal
+
+Embedding file 
+app and main.py
+python main.py
+
+
+
+Running Vector Stores
+uvicorn app:app --reload --port 8000
