@@ -10,3 +10,9 @@ for backup (powershell)
 docker run -d -p 6333:6333 ^
   -v C:\qdrant_data_backup:/qdrant/storage ^
   --name qdrant_restored qdrant/qdrant
+
+
+
+
+if created:
+  docker start happy_pascal
